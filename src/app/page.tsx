@@ -15,13 +15,13 @@ export default function Home() {
     <div>
       <NavBar/>
       <Introduction/>
-      <Experience/>
-      <Projects/>
-      <Education/>
-      <Skills/>
-      <ContactMe/>
-      <ContactInfo/>
-      <Connect/>
+      <div className="">
+        <Experience/>
+        <Projects/>
+        <Education/>
+        <Skills/>
+        <ContactMe/>
+      </div>
       <FooterRights/>
     </div>
   );
