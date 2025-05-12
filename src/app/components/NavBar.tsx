@@ -19,12 +19,12 @@ export default function NavBar() {
         <div className="hidden sm:flex gap-3">
           <a
             href="#contactme"
-            className="flex items-center gap-2 bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded-md text-md cursor-pointer"
+            className="flex items-center gap-2 bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded-md text-md  cursor-pointer"
           >
             <EnvelopeIcon />
             <span>Contact</span>
           </a>
-          <button className="flex items-center gap-2 bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded-md text-md">
+          <button className="flex items-center gap-2 bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded-md cursor-pointer text-md">
             <DocumentIcon />
             <span>Resume</span>
           </button>

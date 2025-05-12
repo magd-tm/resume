@@ -9,5 +9,5 @@ html {
 }
 
 section {
-  scroll-margin-top: 100px; /* Creates space at top when scrolling */
+  scroll-margin-top: 20px; /* Creates space at top when scrolling */
 }
