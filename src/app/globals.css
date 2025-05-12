@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
 body {
-  background-color: #EAEBED ;
+  background-color: #eaebed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 100px; /* Creates space at top when scrolling */
 }
