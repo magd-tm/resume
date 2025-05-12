@@ -13,11 +13,13 @@ export default function Introduction() {
       <div className="h-[80vh] mx-3 px-5 py-10 ">
         {/* Content - same for both layouts */}
         <div className="max-w-lg">
-          <h1 className="text-3xl sm:text-5xl font-bold">
+          <h1 className="text-4xl sm:text-5xl font-bold">
             Mechanical Engineer
           </h1>
-          <h2 className="text-xl sm:text-3xl mt-3 text-gray-600">Aerospace</h2>
-          <p className="mt-5 leading-relaxed text-sm sm:text-base">
+          <h2 className="text-2xl sm:text-3xl font-semibold mt-3 text-gray-600">
+            Aerospace
+          </h2>
+          <p className="mt-5 leading-relaxed text-mg sm:text-lg ">
             Mechanical Engineering Graduate Student focused on thermal-fluid
             systems and propulsion. Hands-on experience with HVAC design, CAD
             modeling, and additive manufacturing.
@@ -28,13 +30,13 @@ export default function Introduction() {
         <div className="sm:hidden mt-5 flex flex-col gap-3 w-full">
           <a
             href="#experience"
-            className="w-full px-5 py-3 flex justify-center font-semibold text-sm items-center gap-1 bg-gray-600 text-gray-100 rounded-md"
+            className="w-full px-5 py-3 flex justify-center font-semibold text-md items-center gap-1 bg-gray-600 text-gray-100 rounded-md"
           >
             View Experience
           </a>
           <a
             href="#projects"
-            className="w-full px-5 py-3 flex justify-center font-semibold text-sm items-center gap-1 border border-gray-400 text-gray-800 rounded-md"
+            className="w-full px-5 py-3 flex justify-center font-semibold text-md items-center gap-1 border border-gray-400 text-gray-800 rounded-md"
           >
             Projects
           </a>
@@ -44,13 +46,13 @@ export default function Introduction() {
         <div className="hidden sm:flex mt-5 justify-start gap-3">
           <a
             href="#experience"
-            className="px-5 py-2 flex font-semibold text-sm items-center gap-1 bg-gray-600 text-gray-100 rounded-md"
+            className="px-5 py-2 flex font-semibold text-md items-center gap-1 bg-gray-600 text-gray-100 rounded-md"
           >
             View Experience
           </a>
           <a
             href="#projects"
-            className="px-5 py-2 flex font-semibold text-sm items-center gap-1 border border-gray-400 text-gray-800 rounded-md"
+            className="px-5 py-2 flex font-semibold text-md items-center gap-1 border border-gray-400 text-gray-800 rounded-md"
           >
             Projects
           </a>
