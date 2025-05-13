@@ -1,9 +1,7 @@
 @import "tailwindcss";
-
 body {
-  background-color: #eaebed;
+  background-color: #fcfcfc;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -11,4 +9,3 @@ html {
 section {
   scroll-margin-top: 20px; /* Creates space at top when scrolling */
 }
-

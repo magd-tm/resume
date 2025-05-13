@@ -8,15 +8,15 @@ export default function FooterRights() {
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <div className="grid grid-cols-1 gap-1">
-              <span className="self-center text-2xl font-bold whitespace-nowrap text-gray-800">
+              <span className="self-center text-2xl font-bold whitespace-nowrap text-gray-100">
                 Magdiel Ronces
               </span>
-              <span className="self-center text-md whitespace-nowrap font-semibold text-gray-500">
+              <span className="self-center text-md whitespace-nowrap font-semibold text-gray-200">
                 Mechanical Engineer
               </span>
             </div>
           </a>
-          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-100 sm:mb-0 ">
             <li>
               <a href="#experience" className="hover:underline me-4 md:me-6">
                 Experience
@@ -39,8 +39,8 @@ export default function FooterRights() {
             </li>
           </ul>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+        <span className="block text-sm text-gray-100 sm:text-center ">
           © 2025 All Rights Reserved.
         </span>
       </div>

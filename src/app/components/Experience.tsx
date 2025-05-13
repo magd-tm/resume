@@ -3,24 +3,24 @@ export default function Experience() {
     <section id="experience">
       <div className="px-4 sm:px-6">
         <div className="mt-6 sm:mt-8">
-          <h1 className="text-3xl font-bold text-gray-800">
+          <h1 className="text-3xl font-bold text-[#041725]">
             Professional Experience
           </h1>
 
-          <div className="mt-4 sm:mt-6 p-5 sm:p-6 bg-gray-50 border-l-4 border-gray-600 rounded-lg shadow-sm hover:bg-gray-100">
+          <div className="mt-4 sm:mt-6 p-5 sm:p-6 bg-[#EEF6FF] border-l-4 border-[#041725] rounded-lg shadow-sm">
             {/* Job Title */}
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-700">
+            <h2 className="text-xl sm:text-2xl font-bold text-[#041725]">
               Mechanical Designer
             </h2>
 
             {/* Company */}
-            <h3 className="text-lg sm:text-xl font-semibold text-gray-500 mt-1">
+            <h3 className="text-lg sm:text-xl font-semibold text-[#274859] mt-1">
               Trek Consulting Inc.
             </h3>
 
             {/* Responsibilities */}
             <div className="mt-3 sm:mt-4">
-              <h4 className="text-base sm:text-lg font-medium text-gray-800">
+              <h4 className="text-base sm:text-lg font-medium text-[#041725]">
                 Responsibilities:
               </h4>
               <ul className="list-disc ml-5 sm:ml-6 space-y-2 mt-2">
