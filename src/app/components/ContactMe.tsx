@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import { useEffect, useState } from "react";
 
 export default function ContactMe() {
@@ -17,12 +18,11 @@ export default function ContactMe() {
     };
   }, []);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const form = e.target;
+    const form = e.currentTarget;
 
     try {
-      // Submit to Web3Forms
       const response = await fetch(form.action, {
         method: "POST",
         body: new FormData(form),
@@ -67,7 +67,7 @@ export default function ContactMe() {
                     Message Sent!
                   </h2>
                   <p className="mt-2 text-sm text-gray-500">
-                    Thank you for contacting me. I'll get back to you soon.
+                    Thank you for contacting me. I&apos;ll get back to you soon.
                   </p>
                   <button
                     onClick={() => setIsSubmitted(false)}

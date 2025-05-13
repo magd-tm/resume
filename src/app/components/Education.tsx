@@ -24,7 +24,7 @@ export default function Education() {
             <div className="flex flex-col sm:flex-row justify-between pt-2 border-t border-gray-200">
               <div>
                 <h3 className="text-base sm:text-lg font-semibold text-[#041725]">
-                  Master's in Mechanical Engineering
+                  Master&apos;s in Mechanical Engineering
                 </h3>
                 <h4 className="text-sm sm:text-base font-semibold text-gray-500 mt-1">
                   Focus in Fluid and Thermal Sciences
@@ -38,7 +38,7 @@ export default function Education() {
             {/* Bachelors Degree */}
             <div className="flex flex-col sm:flex-row justify-between pt-3 border-t border-gray-200">
               <h3 className="text-base sm:text-lg font-semibold text-[#041725]">
-                Bachelor's in Mechanical Engineering
+                Bachelor&apos;s in Mechanical Engineering
               </h3>
               <div className="text-sm sm:text-base text-gray-600 mt-2 sm:mt-0 sm:pl-4 whitespace-nowrap">
                 Aug 2019 - May 2023

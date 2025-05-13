@@ -15,7 +15,7 @@ const SkillPill: React.FC<SkillPillProps> = ({ skill }) => {
 };
 
 // Type definition for Skills component (though no props are used here)
-type SkillsProps = {};
+type SkillsProps = Record<string, never>;
 
 const Skills: React.FC<SkillsProps> = () => {
   // Typed skill arrays
