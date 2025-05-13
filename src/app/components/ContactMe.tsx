@@ -87,7 +87,7 @@ export default function ContactMe() {
                   <input
                     type="hidden"
                     name="access_key"
-                    value="453f8a57-7f48-46e0-837d-090fb50ed728"
+                    value={process.env.NEXT_PUBLIC_ACCESS_KEY}
                   />
                   {/* Remove redirect since we're handling it client-side */}
 
