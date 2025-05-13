@@ -21,8 +21,8 @@ This project was created to help a friend showcase his professional experience t
 
 ```bash
 # Quick Start
-git clone https://github.com/yourusername/resume-website.git
-cd resume-website
+git clone https://github.com/awesomesocks123/resume-mag
+cd resume-mag
 npm install
 npm run dev
 ```
@@ -40,20 +40,3 @@ Change Web3Forms key in contact component
 Contact
 Interested in your own resume site? Contact me here on GitHub!
 
-⭐ If you find this useful, please star the repository!
-
-
-### Key Notes:
-1. Replace placeholder image with actual screenshot
-2. Update `yourusername` in the clone URL
-3. Add any additional sections you need
-4. Customize the "About" text as desired
-
-This version:
-- Uses pure markdown syntax
-- Maintains all important information
-- Keeps the friendly tone
-- Includes clear section headers
-- Has proper spacing for readability
-
-The markdown is ready to copy-paste directly into your README.md file.
