@@ -31,7 +31,7 @@ export default function Education() {
                 </h4>
               </div>
               <div className="text-sm sm:text-base text-gray-600 mt-2 sm:mt-0 sm:pl-4 whitespace-nowrap">
-                Aug 2023 - May 2026
+                Jan 2024 - Dec 2025
               </div>
             </div>
 
