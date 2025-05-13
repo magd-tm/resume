@@ -1,6 +1,6 @@
 # Modern Resume Website
 
-![Website Preview]([https://via.placeholder.com/800x400?text=Resume+Website+Screenshot](https://awesomesocks123.github.io/resume-mag/) <!-- Replace with actual screenshot -->
+![Website Preview](https://awesomesocks123.github.io/resume-mag/) <!-- Replace with actual screenshot -->
 
 A sleek, responsive resume website built with Next.js and Tailwind CSS.
 
