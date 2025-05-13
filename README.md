@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Resume Website
 
-## Getting Started
+![Website Preview](https://via.placeholder.com/800x400?text=Resume+Website+Screenshot) <!-- Replace with actual screenshot -->
 
-First, run the development server:
+A sleek, responsive resume website built with Next.js and Tailwind CSS.
+
+## Features
+- ⚡ Next.js for blazing fast performance
+- 🎨 Tailwind CSS for beautiful styling
+- ✉️ Web3Forms for contact functionality
+- 📱 Fully responsive design
+- 🖨️ Print-friendly layout
+
+## Tech Stack
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Forms**: [Web3Forms](https://web3forms.com/)
+- **Hosting**: GitHub Pages
+
+## About
+This project was created to help a friend showcase his professional experience through an elegant web interface. Originally deployed on AWS, it now runs happily on GitHub Pages.
 
 ```bash
+# Quick Start
+git clone https://github.com/yourusername/resume-website.git
+cd resume-website
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Customization
+To make this your own:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Edit profile data in /data/profile.js
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Update experience in /data/experience.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Modify projects in /data/projects.js
 
-## Learn More
+Change Web3Forms key in contact component
 
-To learn more about Next.js, take a look at the following resources:
+Contact
+Interested in your own resume site? Contact me here on GitHub!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⭐ If you find this useful, please star the repository!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### Key Notes:
+1. Replace placeholder image with actual screenshot
+2. Update `yourusername` in the clone URL
+3. Add any additional sections you need
+4. Customize the "About" text as desired
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This version:
+- Uses pure markdown syntax
+- Maintains all important information
+- Keeps the friendly tone
+- Includes clear section headers
+- Has proper spacing for readability
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The markdown is ready to copy-paste directly into your README.md file.
