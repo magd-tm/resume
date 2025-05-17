@@ -25,7 +25,7 @@ export default function Projects() {
           </div>
           <div className="mt-4 sm:mt-6 p-5 sm:p-6 bg-[#EEF6FF] border-t-4 border-t-[#041725] border-[#041725] rounded-lg shadow-md  ">
             <h2 className="text-xl sm:text-2xl font-bold text-[#041725]">
-            🦿 Lower-limb Exoskeleton:
+            🦿 Lower-limb Exoskeleton
             </h2>
             <h2 className="text-md sm:text-lg font-bold text-[#42535f]">Senior Capstone Project</h2>
             <div className="max-w-3xl m-2 text-[#041725]">
