@@ -65,7 +65,7 @@ export default function ContactMe() {
                   </div>
                   <h2 className="mt-3 text-lg font-medium text-gray-900">Message Sent!</h2>
                   <p className="mt-2 text-sm text-gray-500">
-                    Thank you for contacting me. I&aposll get back to you soon.
+                    Thank you for contacting me. I&apos;ll get back to you soon.
                   </p>
                   <button
                     onClick={() => setIsSubmitted(false)}
@@ -82,7 +82,7 @@ export default function ContactMe() {
                   className="space-y-4"
                   onSubmit={handleSubmit}
                 >
-                  <input type="hidden" name="access_key" value="453f8a57-7f48-46e0-837d-090fb50ed728" />
+                  <input type="hidden" name="access_key" value={process.env.NEXT_PUBLIC_ACCESS_KEY} />
                   {/* Remove redirect since we're handling it client-side */}
                 
                   
