@@ -82,7 +82,7 @@ export default function ContactMe() {
                   className="space-y-4"
                   onSubmit={handleSubmit}
                 >
-                  <input type="hidden" name="access_key" value={process.env.NEXT_PUBLIC_ACCESS_KEY} />
+                  <input type="hidden" name="access_key" value="7740db77-1c1e-4443-abae-c59c8acd01a2" />
                   {/* Remove redirect since we're handling it client-side */}
                 
                   
