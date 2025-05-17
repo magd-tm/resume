@@ -1,11 +1,11 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  output: "export",
+const nextConfig = {
+  output: 'export',
+  basePath: isProd ? '/resume-mag' : '',
+  assetPrefix: isProd ? '/resume-mag/' : '',
   reactStrictMode: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/resume-mag' : '',
-
 };
 
-export default nextConfig;
+module.exports = nextConfig;
