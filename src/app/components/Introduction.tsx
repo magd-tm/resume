@@ -13,16 +13,16 @@ export default function Introduction() {
       <div className="h-[80vh] mx-3 px-5 py-10 ">
         {/* Content - same for both layouts */}
         <div className="max-w-lg">
-          <h1 className="text-5xl text-[#041725] font-bold">
-            Mechanical Engineer
+          <h1 className="text-5xl font-bold">
+            <span className="bg-gradient-to-r from-[#325d7c] to-[#041725] bg-clip-text text-transparent">
+              Mechanical Engineer
+            </span>
           </h1>
           <h2 className="text-2xl sm:text-3xl font-semibold mt-3 text-gray-600">
-            Aerospace
-          </h2>
+            🚀 Aspiring Aerospace
+          </h2> 
           <p className="mt-5 leading-relaxed text-mg sm:text-lg text-[#041725]">
-            Mechanical Engineering Graduate Student focused on thermal-fluid
-            systems and propulsion. Hands-on experience with HVAC design, CAD
-            modeling, and additive manufacturing.
+            Graduate engineer specializing in <strong>thermal-fluid systems</strong> and <strong>propulsion</strong>, with hands-on <strong>CAD</strong>, <strong>HVAC</strong>, and <strong>additive manufacturing</strong> experience. Passionate about applying expertise to aerospace challenges in <strong>thermal management</strong>, <strong>propulsion systems</strong>, and <strong>advanced manufacturing</strong>.
           </p>
         </div>
 

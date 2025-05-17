@@ -15,7 +15,7 @@ export default function Home() {
       <NavBar />
 
       {/* Introduction - Full-width bg with contained content */}
-      <div className="bg-white rounded-lg">
+      <div className="bg-gradient-to-b from-[#FFFFFF] to-[#bacde3] rounded-lg">
         {" "}
         {/* Optional background color */}
         <div className="mx-auto px-4 sm:px-6 py-12 max-w-4xl">
@@ -24,7 +24,7 @@ export default function Home() {
       </div>
 
       {/* Main content container */}
-      <main className="flex-1">
+      <main className="flex-1 bg-[#f6faff]">
         {/* Experience */}
         <div className="py-8">
           <div className="mx-auto px-2 sm:px-4 max-w-4xl">

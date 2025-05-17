@@ -19,14 +19,14 @@ export default function NavBar() {
         <div className="flex gap-2 flex-wrap">
           <a
             href="#contactme"
-            className="flex items-center gap-1 sm:gap-2 bg-[#1F62FF] hover:bg-[#5275A3] text-gray-100 px-3 sm:px-4 py-1.5 sm:py-2 rounded-md text-sm sm:text-md transition duration-300 cursor-pointer"
+            className="flex items-center gap-1 sm:gap-2 bg-gradient-to-r from-[rgb(149,205,245)] to-[#64b2ea] hover:bg-[#f8fbfe] text-[##041725] px-3 sm:px-4 py-1.5 sm:py-2 rounded-md text-sm sm:text-md transition duration-300 cursor-pointer"
           >
             <EnvelopeIcon />
             <span>Contact</span>
           </a>
           <a
             href="https://linkedin.com/in/magdiel-ronces-95860726b"
-            className="flex items-center gap-1 sm:gap-2 bg-[#293241] hover:bg-[#3D4A61] text-gray-100 px-3 sm:px-4 py-1.5 sm:py-2 rounded-md text-sm sm:text-md transition duration-300 cursor-pointer"
+            className="flex items-center gap-1 sm:gap-2 bg-gradient-to-r from-[#325d7c] to-[#041725] hover:bg-[#3D4A61] text-gray-100 px-3 sm:px-4 py-1.5 sm:py-2 rounded-md text-sm sm:text-md transition duration-300 cursor-pointer"
           >
             <DocumentIcon />
             <span>Connect</span>
